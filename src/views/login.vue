@@ -75,6 +75,7 @@ export default {
                     role=3;//支撑接口人
                 }
                 this.$store.commit('setRole',role);
+                this.$store.commit('setUserUuid',this.uid)
                 console.log(this.uid,this.token,role)
                 localStorage.setItem('token', this.token);
                 if(role==2){

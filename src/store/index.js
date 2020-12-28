@@ -7,6 +7,7 @@ export default new Vuex.Store({
   state: {
     token:localStorage.getItem('token'),
     role:2,
+    userUuid:''
   },
   mutations: {
     login:(state,data)=>{
@@ -15,6 +16,9 @@ export default new Vuex.Store({
     },
     setRole(state,data){
       state.role=data;
+    },
+    setUserUuid(state,data){
+      state.userUuid=data;
     }
   },
   actions: {

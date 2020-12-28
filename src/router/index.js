@@ -23,37 +23,37 @@ const routes = [
   {
     path: '/todoList',
     name: 'todoList',
-    component: () => import('../views/todoList.vue')
+    component: () => import('../views/order/todoList.vue')
   },
   {
     path: '/newlist',
     name: 'newlist',
-    component: () => import('../views/newlist.vue')
+    component: () => import('../views/order/newlist.vue')
   },
   {
     path: '/allSta',
     name: 'allSta',
-    component: () => import('../views/allSta.vue')
+    component: () => import('../views/sta/allSta.vue')
   },
   {
     path: '/areaSta',
     name: 'areaSta',
-    component: () => import('../views/areaSta.vue')
+    component: () => import('../views/sta/areaSta.vue')
   },
   {
     path: '/company',
     name: 'company',
-    component: () => import('../views/company.vue')
+    component: () => import('../views/system/company.vue')
   },
   {
     path: '/companyOperate',
     name: 'companyOperate',
-    component: () => import('../views/companyOperate.vue')
+    component: () => import('../views/system/companyOperate.vue')
   },
   {
     path: '/details',
     name: 'details',
-    component: () => import('../views/details.vue')
+    component: () => import('../views/order/details.vue')
   },
   {
     path: '/information',
@@ -63,17 +63,17 @@ const routes = [
   {
     path: '/inSta',
     name: 'inSta',
-    component: () => import('../views/inSta.vue')
+    component: () => import('../views/sta/inSta.vue')
   },
   {
     path: '/listSta',
     name: 'listSta',
-    component: () => import('../views/listSta.vue')
+    component: () => import('../views/sta/listSta.vue')
   },
   {
     path: '/outSta',
     name: 'outSta',
-    component: () => import('../views/outSta.vue')
+    component: () => import('../views/sta/outSta.vue')
   },
   {
     path: '/personalSettings',
@@ -83,37 +83,37 @@ const routes = [
   {
     path: '/role',
     name: 'role',
-    component: () => import('../views/role.vue')
+    component: () => import('../views/system/role.vue')
   },
   {
     path: '/supportCompanySta',
     name: 'supportCompanySta',
-    component: () => import('../views/supportCompanySta.vue')
+    component: () => import('../views/sta/supportCompanySta.vue')
   },
   {
     path: '/user',
     name: 'user',
-    component: () => import('../views/user.vue')
+    component: () => import('../views/system/user.vue')
   },
   {
     path: '/userOperate',
     name: 'userOperate',
-    component: () => import('../views/userOperate.vue')
+    component: () => import('../views/system/userOperate.vue')
   },
   {
     path: '/allList',
     name: 'allList',
-    component: () => import('../views/allList.vue')
+    component: () => import('../views/order/allList.vue')
   },
   {
     path: '/doneList',
     name: 'doneList',
-    component: () => import('../views/doneList.vue')
+    component: () => import('../views/order/doneList.vue')
   },
   {
     path: '/detailsDone',
     name: 'detailsDone',
-    component: () => import('../views/detailsDone.vue')
+    component: () => import('../views/order/detailsDone.vue')
   },
 ]
 
